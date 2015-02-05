@@ -1,0 +1,7 @@
+/* line 3, ../../sass/layout/layout.sass */
+.sidebar {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: red;
+}

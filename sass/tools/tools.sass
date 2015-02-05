@@ -1,0 +1,181 @@
+
+/* positioning */
+
+.p-a
+	position: absolute
+.p-r
+	position: relative
+.p-f
+	position: fixed
+.v-center
+	vertical-align: middle
+.text-center
+	text-align: center	
+.block-center
+	margin: 0 auto	
+.w-full
+	width: 100%
+.h-full
+	height: 100%	
+
+.ovh
+	overflow: hidden	
+
+/* display */
+
+.d-b
+	display: block
+.d-ib
+	display: inline-block
+.d-i
+	display: inline
+.d-t
+	display: table
+.d-tc
+	display: table-cell	
+.d-f
+	display: flex
+
+/* ###color### */
+.white
+	color: white
+
+/* Text */
+$grey-1: #333
+
+.grey-1 
+	color: $grey-1
+
+$grey-2: #555
+
+.grey-2
+	color: $grey-2
+
+$grey-3: #777 // body color
+
+.grey-3
+	color: $grey-3
+
+/* Backgrounds */
+$grey-4: #999999
+
+.grey-4
+	color: $grey-4
+
+$grey-5: #cccccc
+
+.grey-5	
+	color: $grey-5
+	
+$grey-6: #f3f3f3
+	
+.grey-6
+	color: $grey-6
+
+
+
+
+
+/* floats */
+
+.pull-left
+	float: left
+
+.pull-right
+	float: right
+
+.clearfix
+	clear: both
+
+.abs-center 
+	margin: auto
+	position: absolute
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+
+/* spacing */
+
+
+
+.s-ps
+	padding: 10px
+.s-pm
+	padding: 20px
+.s-pl
+
+.s-pxl
+	padding: 50px
+
+.s-pxxl	
+	padding: 100px	
+
+.s-ps-v
+	padding-top: 10px
+	padding-bottom: 10px
+
+.s-pm-v
+	padding-top: 15px
+	padding-bottom: 15px	
+
+.s-pxl-v
+	padding-top: 50px
+	padding-bottom: 50px
+
+
+
+
+.s-ms-b
+	margin-bottom: 10px
+.s-mm-b
+	margin-bottom: 20px
+.s-ml-b
+	margin-bottom: 90px
+
+
+.s-npm
+
+.s-np
+
+.s-nm
+
+.s-np-h
+
+.s-np-v
+
+
+/* Typography */
+
+/* font-size */
+.t-uc
+	text-transform: uppercase
+.t-lc
+	text-transform: lowercase
+
+
+.show-on-hover
+	display: none
+.hover-trigger 
+	.show-on-hover
+		display: inline-block
+
+
+.rounded-s		
+	border-radius: 5px
+
+
+=border-radius($radius)
+	-webkit-border-radius: $radius
+	-moz-border-radius:    $radius
+	-ms-border-radius:     $radius
+	border-radius:         $radius
+
+=font-size($size: 1.6, $line: $size * 1.25)
+	font-size: ($size * 10) + px
+	line-height: ($line * 10) + px
+	font-size: $size + rem
+	line-height: $line + rem
+
+
+
