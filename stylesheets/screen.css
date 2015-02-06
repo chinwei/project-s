@@ -286,28 +286,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /*-----  End of Base Styles  ------ */
-/* line 16, ../sass/base/base.sass */
+/* line 19, ../sass/base/base.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 19, ../sass/base/base.sass */
+/* line 22, ../sass/base/base.sass */
 body {
   background: #f3f3f3;
 }
 
-/* line 22, ../sass/base/base.sass */
+/* line 25, ../sass/base/base.sass */
 html {
   font-size: 62.5%;
 }
-/* line 24, ../sass/base/base.sass */
+/* line 27, ../sass/base/base.sass */
 html body {
   font-size: 14px;
   line-height: 17.5px;
   font-size: 1.4rem;
   line-height: 1.75rem;
 }
-/* line 26, ../sass/base/base.sass */
+/* line 29, ../sass/base/base.sass */
 html h1 {
   font-size: 24px;
   line-height: 30px;
@@ -315,69 +315,74 @@ html h1 {
   line-height: 3rem;
 }
 
-/* line 31, ../sass/base/base.sass */
+/* line 34, ../sass/base/base.sass */
 .t-1 {
   font-size: 160px;
 }
 
-/* line 33, ../sass/base/base.sass */
+/* line 36, ../sass/base/base.sass */
 .t-2 {
   font-size: 72px;
 }
 
-/* line 35, ../sass/base/base.sass */
+/* line 38, ../sass/base/base.sass */
 .t-3 {
   font-size: 36px;
 }
 
-/* line 37, ../sass/base/base.sass */
+/* line 40, ../sass/base/base.sass */
 .t-4 {
   font-size: 26px;
 }
 
-/* line 39, ../sass/base/base.sass */
+/* line 42, ../sass/base/base.sass */
 .t-5 {
   font-size: 20px;
 }
 
-/* line 41, ../sass/base/base.sass */
+/* line 44, ../sass/base/base.sass */
 .t-6 {
   font-size: 14px;
 }
 
 /* font-weight */
-/* line 47, ../sass/base/base.sass */
+/* line 50, ../sass/base/base.sass */
 .t-xlight {
   font-weight: 200;
 }
 
-/* line 49, ../sass/base/base.sass */
+/* line 52, ../sass/base/base.sass */
 .t-light {
   font-weight: 300;
 }
 
-/* line 51, ../sass/base/base.sass */
+/* line 54, ../sass/base/base.sass */
 .t-regular {
   font-weight: 400;
 }
 
-/* line 53, ../sass/base/base.sass */
+/* line 56, ../sass/base/base.sass */
 .t-medium {
   font-weight: 600;
 }
 
-/* line 55, ../sass/base/base.sass */
+/* line 58, ../sass/base/base.sass */
 .t-bold {
   font-weight: 700;
 }
 
-/* line 59, ../sass/base/base.sass */
+/* line 62, ../sass/base/base.sass */
 .content {
   margin-left: auto;
   margin-right: auto;
   padding-left: 1em;
   padding-right: 1em;
   max-width: 768px;
+}
+
+/* line 70, ../sass/base/base.sass */
+button {
+  border: none;
 }
 
 /* line 3, ../sass/layout/layout.sass */

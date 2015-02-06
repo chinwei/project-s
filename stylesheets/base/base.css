@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'font-size'.
-        on line 25 of /Users/chinweiwong/Dropbox/projects/framework/sass/base/base.sass, in `font-size'
-        from line 25 of /Users/chinweiwong/Dropbox/projects/framework/sass/base/base.sass
+        on line 28 of /Users/chinweiwong/Dropbox/projects/project-s/sass/base/base.sass, in `font-size'
+        from line 28 of /Users/chinweiwong/Dropbox/projects/project-s/sass/base/base.sass
 
-20: 	background: #f3f3f3
-21: 
-22: html
-23: 	font-size: 62.5%
-24: 	body
-25: 		+font-size(1.4)
-26: 	h1
-27: 		+font-size(2.4)
-28: 
-29: 
-30: 
+23: 	background: #f3f3f3
+24: 
+25: html
+26: 	font-size: 62.5%
+27: 	body
+28: 		+font-size(1.4)
+29: 	h1
+30: 		+font-size(2.4)
+31: 
+32: 
+33: 
 
 Backtrace:
-/Users/chinweiwong/Dropbox/projects/framework/sass/base/base.sass:25:in `font-size'
-/Users/chinweiwong/Dropbox/projects/framework/sass/base/base.sass:25
+/Users/chinweiwong/Dropbox/projects/project-s/sass/base/base.sass:28:in `font-size'
+/Users/chinweiwong/Dropbox/projects/project-s/sass/base/base.sass:28
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
@@ -84,4 +84,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'font-size'.\A         on line 25 of /Users/chinweiwong/Dropbox/projects/framework/sass/base/base.sass, in `font-size'\A         from line 25 of /Users/chinweiwong/Dropbox/projects/framework/sass/base/base.sass\A \A 20: 	background: #f3f3f3\A 21: \A 22: html\A 23: 	font-size: 62.5%\A 24: 	body\A 25: 		+font-size(1.4)\A 26: 	h1\A 27: 		+font-size(2.4)\A 28: \A 29: \A 30: "; }
+  content: "Error: Undefined mixin 'font-size'.\A         on line 28 of /Users/chinweiwong/Dropbox/projects/project-s/sass/base/base.sass, in `font-size'\A         from line 28 of /Users/chinweiwong/Dropbox/projects/project-s/sass/base/base.sass\A \A 23: 	background: #f3f3f3\A 24: \A 25: html\A 26: 	font-size: 62.5%\A 27: 	body\A 28: 		+font-size(1.4)\A 29: 	h1\A 30: 		+font-size(2.4)\A 31: \A 32: \A 33: "; }
