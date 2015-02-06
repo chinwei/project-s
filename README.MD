@@ -4,6 +4,7 @@ Goal of this framework
 - To provide a standardized list of classes 
 - To provide a reusable structure for css
 - To provide a list of utility classes
+- Reduce the number of classes used
 - To enforce constrain
     + 6 font sizes
     + 6 shades of grey
@@ -58,6 +59,9 @@ Module: none
     + notifications
     + form
     + tooltip
+    + list-grid
+
+
     
 
 
@@ -72,7 +76,7 @@ States: is[State] convention
 - The structure of the page is defined by layouts, e.g. top nav, sidebar, main content area
 - Layouts are containers for modules, e.g. the top nav bar can contain an inline list, a dropdown (stacked-list) and a profile module
 - modules can contain sub-modules
-- modules consists of elements, which 
+- modules consists of elements, which are defined by base styles
 
 
 Order of hierachy (lowest to highest)
@@ -85,5 +89,43 @@ Order of hierachy (lowest to highest)
     + slider, login form
 - modules with state e.g. menu that is constrained by media queries
 - containers
+    + containers are a special kind of module. It is only there to provide spacing whenever needed.
 - layouts
+
+Containers
+- Padding on all 4 sides
+- More padding on sides than top e.g. button, display text
+
+
+Modules
+
+
+Modal
+- Overlay
+- layout (abs center)
+    * module
+        + container (padding)
+            - module (optional)
+                + container (for padding, optional)
+                    * element
+                
+
+
+List Grid with centered icon
+
+- layout (.content)
+    + container (padding, optional)
+        * list module
+            - container (padding)
+                + container (display-table)
+                    * container (display-tablecell, centered)
+                        - image
+
+What i need:
+
+- a mixin for flexible padding
+
+
+App should be designed for mobile first.
+
 
